@@ -1,0 +1,64 @@
+/* Center the login container */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* Style the login form */
+.login-form {
+    width: 400px;
+    padding: 40px;
+    background: rgb(40, 47, 69);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Heading */
+.login-form h3 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Button */
+.login-form .btn-primary {
+    background: #00aaff;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-form .btn-primary:hover {
+    background: #0088cc;
+}
+
+/* Forgot Password */
+.forgot-password a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
